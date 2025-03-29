@@ -11,8 +11,8 @@ const AboutMe = () => {
   return (
     <div id="About" className='text-white flex flex-col md:gap-4 w-full justify-center md:justify-between items-center text-center md:text-left'>
       <div className='w-full mt-28'>
-        <h1 className='text-2xl md:4xl font-bold'>About Me</h1>
-        <p className='text-gray-400 mt-2'>fhksfhsl sfskfslf fskfjsk sfskher cskkjdl sfnfkshjw fnskf fshejr fskfhkwf fskfksfs fsjjfkshfk fsfhkskfs ssssfdfier fdkdjfeo dfhkhfsknf fkshfkslfslnfs ffkshflfljls nfsfns sfhskhfksf sfskfsk</p>
+        <h1 className='text-2xl md:text-4xl font-bold'>About Me</h1>
+        <p className='text-gray-400 mt-12'>fhksfhsl sfskfslf fskfjsk sfskher cskkjdl sfnfkshjw fnskf fshejr fskfhkwf fskfksfs fsjjfkshfk fsfhkskfs ssssfdfier fdkdjfeo dfhkhfsknf fkshfkslfslnfs ffkshflfljls nfsfns sfhskhfksf sfskfsk</p>
       </div>
       <div className='w-full flex flex-col justify-center md:justify-start md:items-start items-center'>
         <div className='flex flex-row gap-4 justify-center md:justify-end mt-4'>

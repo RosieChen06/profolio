@@ -13,7 +13,7 @@ const Experience = () => {
             timeline: '2023.01-2023.09',
             photo: '/makalot_logo.jpg',
             description:[
-                'Developed a Payroll Management System using React, enhancing data visibility for vendors and riders, streamlining reporting, and reducing rider turnover from 40% to 10%.', 
+                'Make use of the historical data and collaborate with the system team to optimize the production  process and fulfill digitalization in production.', 
             ]
         },
         {
@@ -30,14 +30,17 @@ const Experience = () => {
         }
     ]
   return (
-    <div className='text-white'>
-        <VerticalTimeline>
-            {
-                exp.map((index)=>(
-                    <VerticalElement role={index.role} company={index.company} description={index.description} timeline={index.timeline} photo={index.photo}/>
-                ))
-            }
-        </VerticalTimeline>
+    <div className='text-white pt-24 md:pt-16' id='Experience'>
+        <h1 className='text-center md:text-left text-2xl md:text-4xl font-bold'>Experience</h1>
+        <div className='mt-12'>
+            <VerticalTimeline>
+                {
+                    exp.map((index)=>(
+                        <VerticalElement key={index.timeline} role={index.role} company={index.company} description={index.description} timeline={index.timeline} photo={index.photo}/>
+                    ))
+                }
+            </VerticalTimeline>
+        </div>
     </div>
   )
 }

@@ -20,12 +20,12 @@ const VerticalElement = ({role, company, description, timeline, photo}) => {
             </div>
         }
         >
-        <h3 className="vertical-timeline-element-title">{role}</h3>
-        <h4 className="vertical-timeline-element-subtitle">{company}</h4>
-        <ul className="pl-5 space-y-2">
+        <h3 className="vertical-timeline-element-title font-semibold text-[18px]">{role}</h3>
+        <h4 className="vertical-timeline-element-subtitle text-xs text-gray-500 font-semibold">{company}</h4>
+        <ul className="pl-5 list-disc space-y-2 mt-3">
             {
                 description.map((item, index) => (
-                <li key={index} className="text-sm text-gray-700">{item}</li>
+                <li key={index} className="text-xs text-gray-600">{item}</li>
                 ))
             }
         </ul>
