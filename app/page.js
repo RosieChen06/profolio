@@ -2,6 +2,7 @@ import AboutMe from "@/components/AboutMe";
 import Experience from "@/components/Experience";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
+import Project from "@/components/Project";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <div className="relative mt-8">
           <Experience />
         </div>
+        <Project />
       </div>
     </div>
   );
