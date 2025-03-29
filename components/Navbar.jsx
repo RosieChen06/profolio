@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className='sticky top-0 py-3 bg-black w-full'>
-      <div className='flex justify-end'>
+      <div className='flex justify-end pr-8'>
         <div className='block z-50 md:hidden text-lg border-[1px] border-white text-white rounded-md p-2 cursor-pointer'>
             {isMenuOpen?<IoCloseOutline onClick={()=>setIsMenuOpen(false)}/>:<CiMenuBurger onClick={()=>setIsMenuOpen(true)}/>}
         </div>

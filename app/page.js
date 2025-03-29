@@ -7,7 +7,7 @@ import Project from "@/components/Project";
 export default function Home() {
   return (
     <div className="pb-4 px-8 bg-[#121212]">
-      <div className="fixed top-0 left-0 w-full z-10 px-8 bg-[#121212]">
+      <div className="fixed top-0 left-0 w-full z-10 bg-black">
         <Navbar />
       </div>
       <div className="mt-0 pt-32 px-2 md:px-12">
