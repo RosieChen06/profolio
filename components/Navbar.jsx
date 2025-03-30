@@ -27,9 +27,9 @@ const Navbar = () => {
           isMenuOpen ? 'translate-y-0' : '-translate-y-full'
         }`}> 
         <ul className='text-white flex flex-col gap-8 mt-16'>
-            <li><NavLink href={'#About'} title='About' setIsMenuOpen={setIsMenuOpen}></NavLink></li>
-            <li><NavLink href={'#Experience'} title='Experience' setIsMenuOpen={setIsMenuOpen}></NavLink></li>
-            <li><NavLink href={'#Project'} title='Project' setIsMenuOpen={setIsMenuOpen}></NavLink></li>
+            <li><NavLink href='#About' title='About' setIsMenuOpen={setIsMenuOpen}></NavLink></li>
+            <li><NavLink href='#Experience' title='Experience' setIsMenuOpen={setIsMenuOpen}></NavLink></li>
+            <li><NavLink href='#Project' title='Project' setIsMenuOpen={setIsMenuOpen}></NavLink></li>
         </ul>    
       </div>
     </nav>

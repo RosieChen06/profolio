@@ -2,9 +2,11 @@
 
 import React, { useState } from 'react'
 import Image from 'next/image'
+import { IoCodeSlashOutline } from "react-icons/io5";
+import { MdOutlineRemoveRedEye } from "react-icons/md";
+import { GoLinkExternal } from "react-icons/go";
 
 const ProjectCard = () => {
-    const [isHovered, setIsHovered] = useState(false);
   return (
     <section>
         <div>
@@ -18,8 +20,10 @@ const ProjectCard = () => {
                     layout="responsive"
                     objectFit="cover"
                 />
-                <div className="absolute top-0 left-0 w-full h-full bg-black/50 opacity-0 hover:opacity-90 transition-opacity duration-300 flex justify-center items-center">
-                    <p className="text-white font-bold">fsfsfsfsfsfsfsssfsfsfsfsf</p>
+                <div className="absolute top-0 left-0 w-full h-full bg-black/50 opacity-0 hover:opacity-90 focus:opacity-90 gap-2 transition-opacity duration-300 flex justify-center items-center">
+                    <div className='border-[1px] cursor-pointer border-white rounded-full p-2 hover:bg-black/40'><IoCodeSlashOutline /></div>
+                    <div className='border-[1px] cursor-pointer border-white rounded-full p-2 hover:bg-black/40'><MdOutlineRemoveRedEye /></div>
+                    <div className='border-[1px] cursor-pointer border-white rounded-full p-2 hover:bg-black/40'><GoLinkExternal /></div>
                 </div>
             </div>
             <div className="mt-3 text-left">
