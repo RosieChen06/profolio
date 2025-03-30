@@ -10,7 +10,11 @@ const Project = () => {
         {
             project_name: '',
             project_description:'',
-            project_type: ''
+            project_type: '',
+            img: '/chatapp.jpg',
+            web_link: '',
+            github_link: '',
+            demo_link: ''
         }
     ]
   return (
