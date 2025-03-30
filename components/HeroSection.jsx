@@ -5,6 +5,7 @@ import React from 'react'
 import { IoLogoLinkedin } from "react-icons/io";
 import { AiFillMediumSquare } from "react-icons/ai";
 import { motion } from "framer-motion";
+import { FaGithubSquare } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
@@ -35,6 +36,9 @@ const HeroSection = () => {
                 <div className='border-[1px] border-white rounded-full p-2'>
                     <a href='https://medium.com/@rosiechen_2000'><AiFillMediumSquare /></a>
                 </div>
+                <div className='border-[1px] border-white rounded-full p-2'>
+                    <a href='https://github.com/RosieChen06'><FaGithubSquare /></a>
+                </div>
             </motion.div>
             <motion.div className='flex gap-4 mt-5 justify-center md:justify-start'
                         initial={{ opacity: 0, y: 30 }}
@@ -45,7 +49,7 @@ const HeroSection = () => {
                 <button className='border-2 text-sm border-white rounded-full px-4 py-2 text-white'>Download CV</button>
             </motion.div>
         </motion.div>
-        <motion.div className='mt-10 md:mt-0 md:ml-8 flex justify-center w-[250px] h-[250px] md:w-[200px] md:h-[200px]'
+        <motion.div className='mt-10 md:mt-0 md:ml-8 flex justify-center w-[220px] h-[220px] md:w-[200px] md:h-[200px]'
                     initial={{ opacity: 0, scale: 0.8 }} 
                     animate={{ opacity: 1, scale: 1 }} 
                     transition={{ duration: 0.8, delay: 1 }}
