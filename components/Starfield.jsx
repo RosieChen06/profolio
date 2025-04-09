@@ -15,7 +15,6 @@ function Stars() {
 
   const texture = useMemo(() => new THREE.TextureLoader().load("/circle.png"), []);
 
-  // 生成星星位置
   const starCount = 700;
   const positions = useMemo(() => {
     const posArray = new Float32Array(starCount * 3);
@@ -34,8 +33,8 @@ function Stars() {
       </bufferGeometry>
       <pointsMaterial 
         attach="material" 
-        map={texture} // 使用圓形貼圖
-        size={0.1} // 調整星星大小
+        map={texture} 
+        size={0.1} 
         transparent={true} 
         alphaTest={0.5} // 確保透明部分不顯示
       />

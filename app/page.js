@@ -26,3 +26,7 @@ export default function Home() {
     </div>
   );
 }
+
+export async function generateStaticParams() {
+  return [{ params: { slug: "my-page" } }];
+}
